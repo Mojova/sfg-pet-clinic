@@ -7,6 +7,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>pet-clinic-web</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>13</source>
+                    <target>13</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>fi.erpg</groupId>
